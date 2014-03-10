@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" 
+            android:background="#a9d2ff">
+      
+  
+            
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#65a7d2">
+   <Button
+    android:id="@+id/back"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="20sp"
+    android:textColor="#ae0a94"
+    android:textStyle="bold" 
+    android:typeface="sans"
+    android:text=" पीछे "
+    android:layout_alignParentTop="true"/>
+    
+   <TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dip"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:gravity="center"
+    android:typeface="sans"
+    android:textColor="#ffffff"
+    android:text="कैसे खेलें।"/>
+  </RelativeLayout>
+            
+        <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+            <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+                        
+            <View 
+            android:layout_height="12dp"
+            android:layout_width="fill_parent"/>
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dip"
+            android:textColor="#702963"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:text="आकार सीखे।"/>
+           <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dip"
+            android:textColor="#893F45"
+            android:textSize="15sp"
+            android:text="प्रत्येक आकार का नाम सीखे।"/>
+            
+            <View 
+            android:layout_height="12dp"
+            android:layout_width="fill_parent"/>
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dip"
+            android:textColor="#702963"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:text="आकार के साथ आकार।"/>
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dip"
+            android:textColor="#893F45"
+            android:textSize="15sp"
+            android:text="ऊपर दिए गये आकार को देखे। उसके बाद नीचे दिए गये विकल्प मे से समान आकार वाला विकल्प चुने और उसे खींच कर ऊपर दिए गये बॉक्स(?) मे ड्रॉप कर दे।"/>
+            
+            <View 
+            android:layout_height="12dp"
+            android:layout_width="fill_parent"/>
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:paddingLeft="5dip"
+            android:textColor="#702963"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:text="नाम के साथ आकार।"/>
+           <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dip"
+            android:textColor="#893F45"
+            android:textSize="15sp"
+            android:text="ऊपर दिए गये नाम को पढ़े। उसके बाद नीचे दिए गये विकल्प मे से सही विकल्प चुने और उसे खींच कर ऊपर दिए गये बॉक्स(?) मे ड्रॉप कर दे।"/>
+                      
+            
+            <View 
+            android:layout_height="12dp"
+            android:layout_width="fill_parent"/>
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:paddingLeft="5dip"
+            android:textColor="#702963"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:text="आकार के साथ नाम।"/>
+           <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dip"
+            android:textColor="#893F45"
+            android:textSize="15sp"
+            android:text="ऊपर दिए गये आकार को देखे। उसके बाद नीचे दिए गये विकल्प मे से सही विकल्प चुने और उसे खींच कर ऊपर दिए गये बॉक्स(?) मे ड्रॉप कर दे।"/>
+            
+            
+          <View 
+            android:layout_height="12dp"
+            android:layout_width="fill_parent"/>
+           <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dip"
+            android:textColor="#702963"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:text="आसान अनुक्रम।"/>
+           <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dip"
+            android:textColor="#893F45"
+            android:textSize="15sp"
+            android:text="इस क्रम में खाली स्थान(?) पर क्या आएगा। दिए गये आकार के पैटर्न को देखें और अनुमान लगाये की खाली बॉक्स मे क्या आएगा। उसके बाद नीचे दिए गये विकल्प मे से सही विकल्प चुने और उसे खींच कर ऊपर दिए गये बॉक्स(?) मे ड्रॉप कर दे।"/>
+           
+           
+           <View 
+            android:layout_height="12dp"
+            android:layout_width="fill_parent"/>
+           <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dip"
+            android:textColor="#702963"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:text="मध्यम अनुक्रम।"/>
+           <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dip"
+            android:textColor="#893F45"
+            android:textSize="15sp"
+            android:text="इस क्रम में खाली स्थान(?) पर क्या आएगा। दिए गये आकार के पैटर्न को देखें और अनुमान लगाये की खाली बॉक्स मे क्या आएगा। उसके बाद नीचे दिए गये विकल्प मे से सही विकल्प चुने और उसे खींच कर ऊपर दिए गये बॉक्स(?) मे ड्रॉप कर दे।"/>
+
+
+            <View 
+            android:layout_height="12dp"
+            android:layout_width="fill_parent"/>
+           <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dip"
+            android:textColor="#702963"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:text="कठिन अनुक्रम।"/>
+           <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dip"
+            android:textColor="#893F45"
+            android:textSize="15sp"
+            android:text="इस क्रम में खाली स्थान(?) पर क्या आएगा। दिए गये आकार के पैटर्न और रंग को देखें और अनुमान लगाये की खाली बॉक्स मे क्या आएगा। उसके बाद नीचे दिए गये विकल्प मे से सही विकल्प चुने और उसे खींच कर ऊपर दिए गये बॉक्स(?) मे ड्रॉप कर दे।"/>
+           <View 
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"/>
+           </LinearLayout>
+           </ScrollView>
+</LinearLayout>
